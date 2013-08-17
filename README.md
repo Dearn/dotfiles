@@ -1,4 +1,6 @@
 dotfiles
 ========
 
-Config files (~/ and emerge)
+.Xdefaults - xrdb -merge ~/.Xdefaults
+.Xmodmap   - xmodmap ~/.Xmodmap
+
