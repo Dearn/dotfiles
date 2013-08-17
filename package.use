@@ -1,0 +1,26 @@
+media-libs/libtxc_dxtn abi_x86_32 abi_x86_64
+# required by media-video/vlc-2.0.7
+# required by vlc (argument)
+>=sys-libs/zlib-1.2.8-r1 minizip
+dev-qt/qtgui gtkstyle
+# required by mail-client/thunderbird-17.0.7-r1
+# required by thunderbird (argument)
+>=dev-lang/python-2.7.5-r1:2.7 sqlite
+# required by net-im/kadu-0.12.3[gadu]
+# required by kadu (argument)
+>=net-libs/libgadu-1.11.2 threads
+net-im/kadu xmpp
+# required by sys-devel/prelink-20130503
+# required by app-emulation/wine-1.7.0[prelink]
+# required by wine (argument)
+>=dev-libs/elfutils-0.155 static-libs
+# required by net-libs/webkit-gtk-2.0.4
+# required by gnome-extra/zenity-3.8.0[webkit]
+# required by app-emulation/winetricks-20130707[gtk]
+# required by winetricks (argument)
+=media-libs/harfbuzz-0.9.18-r1 icu
+app-laptop/laptop-mode-tools -bluetooth
+media-video/ffmpeg threads
+net-im/pidgin gadu
+>=net-libs/libgadu-1.11.2 gnutls
+x11-terms/rxvt-unicode -vanilla
