@@ -18,9 +18,16 @@ net-im/kadu xmpp
 # required by gnome-extra/zenity-3.8.0[webkit]
 # required by app-emulation/winetricks-20130707[gtk]
 # required by winetricks (argument)
-=media-libs/harfbuzz-0.9.18-r1 icu
 app-laptop/laptop-mode-tools -bluetooth
 media-video/ffmpeg threads
 net-im/pidgin gadu
 >=net-libs/libgadu-1.11.2 gnutls
 x11-terms/rxvt-unicode -vanilla
+x11-misc/virtualgl abi_x86_32
+x11-misc/primus abi_x86_32
+media-video/ffmpeg rtmp
+dev-java/icedtea-bin nsplugin
+
+sci-mathematics/scilab static-libs fftw
+media-video/mplayer bidi
+sci-mathematics/octave gnuplot
