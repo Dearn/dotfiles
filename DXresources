@@ -1,5 +1,0 @@
-URxvt.font: xft:monaco:size=9
-URxvt.letterSpace: -4
-URxvt.scrollBar: false
-URxvt*background: #171717
-URxvt*foreground: #ffffff
